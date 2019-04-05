@@ -17,6 +17,8 @@ body {
   margin-right: 25px;
   margin-left: 25px;
   /* border: 10px ridge green; */
+  /* background-image: url(images/ball1.jpg); */
+  /* background-repeat: no-repeat; */
 }
 
   body {
@@ -28,7 +30,7 @@ header {
   /* background-color: grey; */
   text-align: center;
   /* line-height: 1; */
-  border-bottom: 10px ridge green;
+  border-bottom: 10px ridge #black;
 }
 
 h1 {
@@ -37,7 +39,7 @@ h1 {
   font-family:"Monda", arial;
   font-weight: bold;
   /* font-style: italic; */
-  border-bottom: 5px solid white;
+  /* border-bottom: 5px solid white; */
 
 }
 
@@ -57,16 +59,17 @@ h4 {
 }
 
 p {
-  font-size: 34px;
-  color: green;
+  font-size: 29px;
+  color: #393939;
   /* line-height: 0.5; */
   /* margin: 15px 0; */
 }
 
 li {
-  font-size: 34px;
-  color: red;
+  font-size: 30px;
+  color: black;
   font-weight: bold;
+  padding-bottom: 20px;
 }
 
 a {
@@ -81,7 +84,7 @@ a:hover {
 }
 
 a:visited {
-  color: #4d465f;
+  color: #1ce07d;
 }
 
 header h1 {
@@ -100,6 +103,9 @@ h1,h2,h3 {
 
 ul {
   margin: 15px 0;
+  border-width: 1px;
+  border-style: ridge;
+  border-color: grey;
 }
 
 ol {
@@ -139,7 +145,8 @@ footer {
   background-color: #b7cede;
   border: solid black;
   color: black;
-  /* margin: 1px; */
+  margin-left: 25px;
+  margin-right: 25px;
   padding: 20px;
 
 }
@@ -163,7 +170,7 @@ footer p {
 
 .banner {
   height: 260 px;
-  background-image: url(images/falcon-banner.jpg);
+  background-image: url(images/smash-art.png);
   background-size: cover;
   background-position: center;
 
@@ -182,12 +189,12 @@ footer p {
 }
 
 .container {
-  max-width: 1000px;
-  margin: 0 auto;
+  /* max-width: 1000px; */
+  /* margin: 0 auto; */
 }
 
 .media {
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -209,11 +216,100 @@ footer {
 .column {
   float: left;
   width: 50%;
-  border: solid red;
+  /* border: solid red; */
+  /* padding-right: 100px; */
 
 }
 
 .training {
   margin-bottom: 50px;
   /* padding-bottom: 10px; */
+}
+
+iframe {
+max-width: 100%;
+border-width: 1px;
+border-color: grey
+
+}
+
+.move-right {
+  padding-left: 8px;
+  border-width: 1px;
+  border-style: ridge;
+  border-color: grey;
+  color: black;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+header h3, h4 {
+  text-align: center;
+}
+
+.more-spacing p {
+  padding-bottom: 30px;
+}
+
+.more-spacing h2 {
+font-size: 34px;
+}
+
+header {
+  text-shadow: 2px 2px black;
+}
+
+.column p {
+  padding-bottom: 20px;
+}
+
+.border {
+  border-width: 1px;
+  border-style: ridge;
+  border-color: grey;
+}
+
+.border p, li {
+  padding-left: 50px;
+  padding-top: 30px;
+  color: black;
+}
+
+.text-resize {
+  font-size: 34px;
+}
+
+.loaction {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.align-right {
+  /* text-align: right; */
+  padding-bottom: 35px;
+}
+
+.padding-left {
+  padding-left: 150px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+h5 {
+  color: black;
+}
+
+.padding-top p {
+  padding-top: 40px;
+}
+
+.margin-top {
+  padding-top: 200px;
+}
+
+.nintendo p {
+  text-align: right;
+  font-size: 10px
 }
